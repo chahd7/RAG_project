@@ -8,7 +8,7 @@ Two different LLMs were used: Mistral and Gemma4 all provided through Ollama. Mi
 
 The pipeline is as follows: 
 <p align="center">
-  <img src="rag_pipeline_architecture.png" alt="RAG System Architecture" width="600"/>
+  <img src="rag_pipeline_architecture.png" alt="RAG System Architecture" width="400"/>
 </p>
 
 # Files structure 
