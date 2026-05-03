@@ -111,6 +111,6 @@ Justification: The question asks to identify the region with the highest sales b
 # Limitations 
 - Struggles with tasks such as cities ranking due to the large number of documents that need to be retrieved
 - Dependent on the filter used when filtering the returned chunks
-- Each query is independent
+- No conversation memory 
 - Struggles with queries that require information from different areas at the same time
 - Require large amount of storage and RAM for Gemma4
