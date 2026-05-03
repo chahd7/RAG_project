@@ -47,7 +47,7 @@ sentence-transformers==5.2.0
 ```bash
 pip install -r requirements.txt
 ```
-3. Install Ollama from https://ollama.com
+3. Install Ollama from https://ollama.com and open it
 4. Run the data_preparation_final.ipynb file for the data preprocessing and textual representation creation
 5. Run the vector database setup in rag_pipeline_final.ipynb . In the case where you want to repopulate the vector database after already populating it once, you can uncomment:
 ```bash
