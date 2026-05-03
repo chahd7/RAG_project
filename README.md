@@ -7,3 +7,6 @@ The documents are then embedded and stored with the corresponding metadata into 
 Two different LLMs were used: Mistral and Gemma4 all provided through Ollama. Mistral provided average results and struggled with logic while Gemma4 showcased a strong performance across all queries, making it the final choice for the LLM. 
 
 The pipeline is as follows: 
+<p align="center">
+  <img src="rag_pipeline_architecture.png" alt="RAG System Architecture" width="600"/>
+</p>
