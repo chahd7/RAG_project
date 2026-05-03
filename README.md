@@ -1,3 +1,5 @@
+**if any of the files fail to render on github as they are too big for the size that github allows (especially data_preparation_final.ipynb), please download to view its content**
+
 # RAG project
 
 This is a project done in the context of the Data warehousing and Business intelligence course during the Spring 2026. It works with Sample superstore data from the US that spans from 2014 to 2017. The system takes this row data, transforms it accordingly into different textual representations, and tests different chunking strategies. The most optimal chunking strategy found and used is the fixed-size with 1000 characters strategy. 
