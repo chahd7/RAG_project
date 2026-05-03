@@ -1,4 +1,4 @@
-**if any of the files fail to render on github as they are too big for the size that github allows (especially data_preparation_final.ipynb), please download to view its content**
+**if any of the files fail to render on github as they are too big for the size that github allows (especially data_preparation_final.ipynb), please download to view its content and to get a clearer view of it**
 
 # RAG project
 
