@@ -10,3 +10,37 @@ The pipeline is as follows:
 <p align="center">
   <img src="rag_pipeline_architecture.png" alt="RAG System Architecture" width="600"/>
 </p>
+
+# How to run it
+
+1. Clone the repository (make sure that the files and the data file are in the same folder)
+2. Install the dependences
+```bash
+pip install -r requirements.txt
+```
+3. Install Ollama from https://ollama.com
+4. Run the data_preparation_final.ipynb file for the data preprocessing and textual representation creation
+5. Run the vector database setup in rag_pipeline_final.ipynb . In the case where you want to repopulate the vector database after already populating it once, you can uncomment:
+```bash
+chroma_client.delete_collection(name="project")
+```
+7. Pull Mistral from Ollama using the terminal in your directory and the command:
+```bash
+ollama pull mistral
+```
+8. Run Mistral from Ollama using the terminal in your directory and the command
+```bash
+ollama run mistral
+```
+9. Run the "RAG Pipeline Implementation - Mistral Approach" section from rag_pipeline_final.ipynb
+10. After it is done, click on CTRL+D to stop mistral from running in your terminal
+11. Pull Gemma4 from Ollama using the terminal in your directory and the command:
+```bash
+ollama pull gemma4
+```
+12. Run Gemma4 from Ollama using the terminal in your directory and the command
+```bash
+ollama run gemma4
+```
+13. Run the RAG Pipeline Implementation - Gemma4 Approach" section to get the results with Gemma4
+14. Run the FINAL FULL PIPELINE PERFORMANCE ON QUERIES section to get the final results on each of the chosen queries. 
